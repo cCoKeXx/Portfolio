@@ -1,0 +1,10 @@
+.background{
+    background-color: transparent;
+}
+@media only screen and (min-width:480px ){
+    .background{
+        background-color: white;
+        -webkit-clip-path: polygon(0% 0%,10% 100%, 90% 100%, 100% 0%);
+        clip-path:  polygon(0% 0%, 10% 100%, 90% 100%, 100% 0%);
+    }
+}

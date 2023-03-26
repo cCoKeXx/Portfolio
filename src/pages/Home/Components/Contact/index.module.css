@@ -1,0 +1,29 @@
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: url("/src/assets/Maroon flowers.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.formBorder::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.185), rgb(255, 255, 255));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; 
+  mask-composite: exclude;
+
+}
+@media only screen and (min-width: 1060px ){
+  .background{
+    -webkit-clip-path: polygon(0% 0%,20% 100%, 100% 100%, 100% 0%);
+    clip-path:  polygon(0% 0%, 20% 100%, 100% 100%, 100% 0%);
+  }
+}
