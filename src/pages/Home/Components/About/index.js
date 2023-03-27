@@ -11,9 +11,9 @@ const index = () => {
         <p className="w-11/12 sm:text-lg sm:w-3/5 md:w-3/5">
           My name is Stefan Petkovic, front-end developer from Serbia. My
           journey started all the way back in High School where I found out
-          about HTML and CSS. Since then I decided to proceed to the self taught
+          about HTML and CSS. Since then I decided to proceed to the self-taught
           path. Learning and making projects on CodeCademy website I earned
-          certifications for Java Script, CSS and full front-end career path. My
+          certifications for JavaScript, CSS and full front-end career path. My
           preference is working with React and Next.js to build product ready
           website that are responsive and fully functional.
         </p>

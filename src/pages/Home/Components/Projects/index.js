@@ -16,7 +16,7 @@ const Index = () => {
         image={CokiliRadionica}
         title={"Cokili Radionica"}
         text={
-          "Online Eccomerce store with working cart functionality and ordering. Data  management with sanity studio and  email messages using email.js."
+          "Online Ecommerce store with working cart functionality and ordering. Data  management with sanity studio and  email messages using email.js."
         }
         languages={["Next", "HTML", "CSS", "JavaScript"]}
         link={"https://cokili-radionica.com/"}
@@ -26,7 +26,7 @@ const Index = () => {
         image={WeatherForecast}
         title={"Weather Forecast"}
         text={
-          "Weather Forecast app built using OpenWeather API inside React. Working search form for fetching city location to accuratly display weekly and daily forecast in 3 hour increments."
+          "Weather Forecast app built using OpenWeather API inside React. Working search form for fetching city location to accurately display weekly and daily forecast in 3 hour increments."
         }
         languages={["React", "HTML", "CSS", "JavaScript"]}
         link={"https://stefans-weather-forecast.netlify.app/"}
